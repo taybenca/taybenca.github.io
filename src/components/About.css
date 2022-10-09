@@ -1,0 +1,15 @@
+.about {
+    position: absolute;
+    width: 518px;
+    max-width: 80%;
+    height: 262px;
+    left: 150px;
+    top: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 500px;
+}
+
+.about p {
+    color: #F9FAFB;
+    font-family: 'Poppins', sans-serif;
+}

@@ -5,6 +5,7 @@
     width: 100%;
     padding: 30px;
     max-width: 80%;
+    left: 100px
 }
 
 .topnav a {
@@ -15,6 +16,7 @@
     text-decoration: none;
     font-size: 17px;
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Change the color of links on hover */
