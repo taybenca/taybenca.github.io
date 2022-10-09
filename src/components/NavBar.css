@@ -1,0 +1,33 @@
+.topnav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    max-width: 80%;
+}
+
+.topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background: linear-gradient(45deg, #d7bfdf 0%, #ecbfe6 43.9%);
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: inline;
+}
+
+li {
+    display: inline;
+}
