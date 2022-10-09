@@ -8,7 +8,6 @@ export const FirstSession = () => {
             <div className="box">
                 <h1>Hi, I'm <span className="name">Tayanne Bencardino</span>.
                 And I am <span className="ocupation">Web Developer</span>!</h1>
-                
             </div>
             
         </div>
