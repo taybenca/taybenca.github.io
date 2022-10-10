@@ -1,0 +1,18 @@
+.skills {
+    height: 100px;
+    margin-top: 60px;
+}
+
+.skills img {
+    padding: 20px;
+    width: 55px;
+    height: 55px;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .skills img {
+        display: none;
+        visibility: hidden;
+    }
+}
