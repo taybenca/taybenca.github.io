@@ -33,3 +33,10 @@ ul {
 li {
     display: inline;
 }
+
+@media only screen and (max-width: 850px) {
+    ul {
+        display: none;
+        visibility: hidden;
+    }
+}
