@@ -1,12 +1,11 @@
 .about {
     position: absolute;
-    width: 518px;
-    max-width: 80%;
-    height: 262px;
-    left: 150px;
-    top: 40px;
+    width: 600px;
+    height: 62px;
+    left: 200px;
+    top: 700px;
     font-family: 'Poppins', sans-serif;
-    margin-top: 500px;
+    margin-top: 10px;
 }
 
 .about p {
@@ -19,8 +18,8 @@
     .about {
         width: 318px;
         max-width: 95%;
-        left: 0px;
-        top: 0px;
-        margin-top: 300px;
+        left: 20vw;
+        top: 300px;
+        margin-top: 150px;
     }
 }
