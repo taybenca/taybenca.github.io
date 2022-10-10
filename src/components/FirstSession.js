@@ -3,9 +3,8 @@ import { NavBar } from "./NavBar"
 
 export const FirstSession = () => {
     return (
-        <div>
+        <session>
             <div className="container"></div>
-            
             <div className="box" id="home">
                 <NavBar />
                 <img className="avatar" src={require("../images/avatar.png")} alt="tayanne-avatar"/>
@@ -14,6 +13,6 @@ export const FirstSession = () => {
                 <p>I believe technology provides a digital canvas for innovative ideas and solutions to problems.
                 Creating something that improves the lives of others or sparks joy is my biggest motivation.</p>
             </div>
-        </div>
+        </session>
     )
 }
