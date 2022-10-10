@@ -1,5 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
 .projects {
-    background-color: aliceblue;
-    height: 40vw;
+    background-color: rgb(255, 248, 253);
+    position: relative;
     margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row {
+    clear: both;
+}
+
+.column{
+    width: 50%;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    position: center;
+}
+
+.projects img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    size: cover;
+    filter: grayscale(0.5);
+    cursor: pointer; 
+    transition: 0.5s ease-in-out;
+    margin-left: 260px;
+}
+
+.card-wrapper::before {
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    /* border: 10px solid #ffffff; */
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+    
+.card-wrapper h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+}
+    
+.card-wrapper p {
+    font-size: 0;
+    visibility: visible;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover{
+    filter: unset;
+    background-color: transparent;
+}
+
+.card-ramble:hover > .card-ramble-wrapper::before {
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+}
+
+.card-ramble:hover > .card-ramble-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
 }
