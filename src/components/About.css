@@ -12,4 +12,15 @@
 .about p {
     color: #F9FAFB;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+@media only screen and (max-width: 850px) {
+    .about {
+        width: 318px;
+        max-width: 95%;
+        left: 0px;
+        top: 0px;
+        margin-top: 300px;
+    }
 }

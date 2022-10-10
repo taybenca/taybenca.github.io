@@ -4,7 +4,7 @@ import "./About.css"
 export const About = () => {
     return (
         <div className="about" id="about">
-            <p>hello world</p>
+            <p>A Full Stack Software Developer who uses Ruby, JavaScript and React to write web applications. </p>
         </div>
     )
 }
