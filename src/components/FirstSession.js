@@ -4,7 +4,7 @@ import { About } from "./About"
 
 export const FirstSession = () => {
     return (
-        <div>
+        <div clasName="first-session">
             <div className="container"></div>
             <img className="avatar" src={require("../images/avatar.png")} alt="tayanne-avatar"/>
             <div className="box" id="home">
