@@ -20,7 +20,7 @@
     box-sizing: border-box;
     position: absolute;
     width: 110em;
-    height: 500px;
+    height: 700px;
     left: 70px;
     top: 136px;
     background: linear-gradient(106.51deg, rgba(255, 255, 255, 0.05) 3.44%, rgba(255, 255, 255, 0.02) 64.82%);
@@ -46,21 +46,21 @@
     text-align: left;
 }
 
-.name {
-    background: linear-gradient(90deg, #F59E0B 39.95%, #EF4444 77.15%);
+.orange-colour {
+    background: linear-gradient(90deg, #F59E0B 0%, #EF4444 40%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.ocupation {
+.pink-colour {
     background: linear-gradient(90deg, #8B5CF6 0%, #EC4899 43.9%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text; 
 }
 
-p {
+.box p {
     color: #F9FAFB;
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
@@ -88,9 +88,11 @@ p {
 
     .box{
         text-align: center;
-        max-width: 80%;
-        height: 260px;
-        background: linear-gradient(106.51deg, rgba(255, 255, 255, 0.05) 3.44%, rgba(255, 255, 255, 0.02) 64.82%);
+        max-width: 85%;
+        width: 100%;
+        height: 100%;
+        left: 30px;
+        top: 40px;
     }
 
     .box h1 {
@@ -99,6 +101,16 @@ p {
         left: 40px;
         top: 0px;
         font-size: 29px;
+        text-align: center;
+    }
+
+    .box p {
+        margin-top: 0px;
+        position: relative;
+        width: 100%;
+        max-width: 85%;
+        left: 40px;
+        top: 40%;
     }
 
 }

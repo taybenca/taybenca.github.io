@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
-.projects {
-    background-color: rgb(255, 248, 253);
-    position: relative;
-    margin-top: 80px;
-    font-family: 'Poppins', sans-serif;
+
+.box-project {
+    box-sizing: border-box;
+    position: absolute;
+    width: 110em;
+    height: 100%px;
+    left: 70px;
+    top: 136px;
+    background: linear-gradient(106.51deg, rgba(255, 255, 255, 0.05) 3.44%, rgba(255, 255, 255, 0.02) 64.82%);
+    backdrop-filter: blur(15px);
+    border-radius: 24px;
+}
+
+.card {
+    padding-bottom: 20%;
+    padding-top: 50px;
+    margin: 5%
 }
 
 .row {
@@ -19,64 +31,69 @@
     position: center;
 }
 
-.projects img {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
+.card h1 {
+    position: absolute;
+    width: 518px;
+    max-width: 80%;
+    height: 162px;
+    left: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #F9FAFB;
+    align-items: center;
+    text-align: left;
+}
+
+.card p {
+    position: relative;
+    color: #F9FAFB;
+    font-family: 'Poppins', sans-serif;
+    width: 700px;
+    padding-top: 10%;
+    text-align: left;
+    
+}
+
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
     margin: 3rem 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
     size: cover;
     filter: grayscale(0.5);
     cursor: pointer; 
     transition: 0.5s ease-in-out;
-    margin-left: 260px;
+    margin-left: 160px;
 }
 
-.card-wrapper::before {
-    content: '';
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    display: block;
-    /* border: 10px solid #ffffff; */
-    opacity: 0;
-    transition: 0.5s ease-in-out;
-}
-    
-.card-wrapper h2 {
-    font-size: 30px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    margin: 0;
-    transition: 0.5s ease-in-out;
-}
-    
-.card-wrapper p {
-    font-size: 0;
-    visibility: visible;
-    opacity: 0;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: 0.5s ease-in-out;
+.github-link {
+    float: left;
+    background: linear-gradient(45deg, #d7bfdf 0%, #e0c3fa 43.9%);
+    color: rgb(34, 20, 37);
+    margin: 30px;
+    margin-left: 25%;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
-.card:hover{
-    filter: unset;
-    background-color: transparent;
+.github-link:hover {
+    background: linear-gradient(45deg, #d7bfdf 0%, #dda4f8 50%);
+    font-weight: 700;
 }
 
-.card-ramble:hover > .card-ramble-wrapper::before {
-    height: 200px;
-    width: 200px;
-    opacity: 1;
-}
-
-.card-ramble:hover > .card-ramble-wrapper p {
-    opacity: 1;
-    visibility: visible;
-    font-size: 14px;
+.card img:hover{
+    filter: grayscale(0);
+    width: 205px;
+    height: 205px;
 }

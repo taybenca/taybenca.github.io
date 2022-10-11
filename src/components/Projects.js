@@ -1,79 +1,75 @@
 import "./Projects.css"
+import { NavBar } from "./NavBar"
+import "./Home.css"
 
 export const Project = () => {
     return (
         <session>
-            <div className="projects" id="projects">
-                <div className="container-project"></div>
-                <h1>Projects</h1>
-                <div class="row">
-                    <div class="column">
-                        <h2>Ramble</h2>
-                        <img src={require("../images/ramble.png")}/>
-                        <ul>
-                            <li>Something</li>
-                            <li>Something</li>
-                            <li>Something</li>
-                            <li>Something</li>
-                        </ul>
-                    </div>
-                    <div class="column">
-                        <h2>Indoors</h2>
-                        <ul>
-                            <li>Something</li>
-                            <li>Something</li>
-                            <li>Something</li>
-                            <li>Something</li>
-                            <li>Something</li>
-                            <li>Something</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="column">
-                        <h2>Sports</h2>
-                        <ul>
-                            <li>Something</li>
-                            <li>Something</li>
-                            <li>Something</li>
-                            <li>Something</li>
-                        </ul>
-                    </div>
-                    <div class="column">
-                        <h2>Indoors</h2>
-                        <ul>
-                            <li>Something</li>
-                            <li>Something</li>
-                            <li>Something</li>
-                            <li>Something</li>
-                            <li>Something</li>
-                            <li>Something</li>
-                        </ul>
-                    </div>
-                </div>
-
-
-
-                <ul class="card-container">
-                    <li class="card">
-                         <a class="card-wrapper" href="https://github.com/taybenca/Ramble-App">
-                            <h2>Ramble</h2>
-                            <div class="card-text">
-                                Ramble helps athletes or people who like to exercise to find someone to exercise together. We are here to help you find a partner for these activities and make your journey according to your goals. 🏃 🚴 🚶
+            <div className="container"></div>
+            <div className="box-project">
+                <NavBar />
+                
+                    <div className="card">
+                        <div className="row">
+                            <div className="column">
+                                <h1 className="orange-colour">Ramble</h1>
+                                <p>Designed a Web Application to help athletes or people who like to exercise to find someone to exercise together. 
+                                    Ramble helps you to find a partner for these activities and make your journey according to your goals. <br/>
+                                    The web app was designed using <i>Trello</i> boards, <i>Excalidraw</i> and <i>Figma</i>. <br/>
+                                    It was built using <i>TypeScript</i>, <i>JavaScript</i> with <i>React</i> framework, and <i>CSS</i>.<br/>
+                                    Interfaces with MapBox API to render a map with the chosen route and use Google Autocomplete to find the city when typing it.
+                                </p>
+                                <a className="github-link" href="https://github.com/taybenca/Ramble-App">Learn more</a>
                             </div>
-                        </a>
-                    </li>
-                    <li class="card">
-                         <a class="card-wrapper" href="https://github.com/taybenca/weather-frontend">
-                            <h2>Weather App</h2>
-                            <div class="card-text">
-                            Check the weather of any city using OpenWeatherMap API
+                            <div className="column">
+                                <a href="https://www.youtube.com/watch?v=Xpqo9LYWCCc"><img src={require('../images/ramble.png')} alt='cycling-group' width='150'/></a>
                             </div>
-                        </a>
-                    </li>
-                </ul>
+                        </div> 
+                    </div>
+
+                    <div className="card">
+                        <div className="row">
+                            <div className="column">
+                                <h1 className="pink-colour">Ramble</h1>
+                                <p>Designed a Web Application to help athletes or people who like to exercise to find someone to exercise together. 
+                                    Ramble helps you to find a partner for these activities and make your journey according to your goals. <br/>
+                                    The web app was designed using <i>Trello</i> boards, <i>Excalidraw</i> and <i>Figma</i>. <br/>
+                                    It was built using <i>TypeScript</i>, <i>JavaScript</i> with <i>React</i> framework, and <i>CSS</i>.<br/>
+                                    Interfaces with MapBox API to render a map with the chosen route and use Google Autocomplete to find the city when typing it.
+                                </p>
+                                <a href="https://github.com/taybenca/Ramble-App">Learn more</a>
+                            </div>
+                            <div className="column">
+                                <img src={require('../images/ramble.png')} alt='cycling-group' width='150'/>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div className="card">
+                        <div className="row">
+                            <div className="column">
+                                <h1 className="orange-colour">Ramble</h1>
+                                <p>Designed a Web Application to help athletes or people who like to exercise to find someone to exercise together. 
+                                    Ramble helps you to find a partner for these activities and make your journey according to your goals. <br/>
+                                    The web app was designed using <i>Trello</i> boards, <i>Excalidraw</i> and <i>Figma</i>. <br/>
+                                    It was built using <i>TypeScript</i>, <i>JavaScript</i> with <i>React</i> framework, and <i>CSS</i>.<br/>
+                                    Interfaces with MapBox API to render a map with the chosen route and use Google Autocomplete to find the city when typing it.
+                                </p>
+                                <button>Learn More</button>
+                            </div>
+                            <div className="column">
+                                <img src={require('../images/ramble.png')} alt='cycling-group' width='150'/>
+                            </div>
+                        </div> 
+                    </div>
+
+                    
+                    
+                       
+                    
+                
             </div>
+            
         </session>
     )
 }

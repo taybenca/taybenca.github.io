@@ -1,12 +1,17 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { FirstSession } from "./components/FirstSession.js"
-import { Project } from './components/Projects';
+import { Home } from './components/Home';
+import { Project } from './components/Projects.js';
 
 function App() {
   return (
     <div className="App">
-      <FirstSession />
-      <Project />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/projects' element={<Project />} />
+        </Routes>
+      </BrowserRouter> 
     </div>
   );
 }

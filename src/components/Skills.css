@@ -1,6 +1,7 @@
 .skills {
     height: 100px;
     margin-top: 65px;
+    width: 60%;
 }
 
 .skills img {
@@ -11,8 +12,9 @@
 
 
 @media only screen and (max-width: 850px) {
-    .skills img {
-        display: none;
-        visibility: hidden;
+    .skills {
+        height: 100px;
+        margin-top: 100%;
+        width: 100%;
     }
 }
