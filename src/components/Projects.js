@@ -2,7 +2,7 @@ import "./Projects.css"
 import { NavBar } from "./NavBar"
 import "./Home.css"
 
-export const Project = () => {
+export const Projects = () => {
     return (
         <session>
             <div className="container"></div>
