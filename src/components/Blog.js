@@ -11,7 +11,7 @@ export const Blog = () => {
                 <div className="all">
                     <div className="blog-row">
                         <div className="blog-column">
-                            <a href="https://medium.com/@tayannebencardino/how-i-understand-rest-api-http-c57750fac0">
+                            <a href="https://medium.com/@tayannebencardino/how-i-understand-rest-api-http-c57750fac0" target="blank">
                                 <div className='blog-card'>
                                     <img src={require("../images/restapi.gif")} alt="person-typing" width='100%'/>
                                     <div class="description">
@@ -28,7 +28,7 @@ export const Blog = () => {
                         </div>
 
                         <div className="blog-column">
-                            <a href="https://medium.com/@tayannebencardino/callback-function-84cdc16b5754">
+                            <a href="https://medium.com/@tayannebencardino/callback-function-84cdc16b5754" target="blank">
                                 <div className='blog-card'>
                                     <img src={require("../images/callback.gif")} alt="girl-eating" width='100%'/>
                                     <div class="description">
@@ -45,7 +45,7 @@ export const Blog = () => {
                         </div>
 
                         <div className="blog-column">
-                            <a href="https://medium.com/@tayannebencardino/teamwork-my-experience-at-makers-caf996feb0f5">
+                            <a href="https://medium.com/@tayannebencardino/teamwork-my-experience-at-makers-caf996feb0f5" target="blank">
                                 <div className='blog-card'>
                                     <img src={require("../images/teamwork.png")} alt="three-points-talking" width='100%'/>
                                     <div class="description">
@@ -64,7 +64,7 @@ export const Blog = () => {
                     <div className="blog-row">
 
                         <div className="blog-column">
-                            <a href="https://medium.com/@tayannebencardino/creating-tables-into-a-database-postg-14a4ea5e6dca">
+                            <a href="https://medium.com/@tayannebencardino/creating-tables-into-a-database-postg-14a4ea5e6dca" target="blank">
                                 <div className='blog-card'>
                                     <img src="https://miro.medium.com/max/640/1*74ayWFrX2ZDM-ToJjKkBAQ.png" alt="database-sql" width='100%'/>
                                     <div class="description">
@@ -80,7 +80,7 @@ export const Blog = () => {
                         </div>
                     
                         <div className="blog-column">
-                            <a href="https://medium.com/@tayannebencardino/pair-programming-why-should-we-pair-every-day-87ed7bd1754e">
+                            <a href="https://medium.com/@tayannebencardino/pair-programming-why-should-we-pair-every-day-87ed7bd1754e" target="blank">
                                 <div className='blog-card'>
                                     <img src="https://miro.medium.com/max/720/1*55LlF1dtoBK9H7ZMW1Fs-Q.png" alt="pair-programming" width='100%'/>
                                     <div class="description">
@@ -97,7 +97,7 @@ export const Blog = () => {
                         </div>
 
                         <div className="blog-column">
-                            <a href="https://medium.com/@tayannebencardino/the-magic-black-screen-command-line-c5a43ed412d4">
+                            <a href="https://medium.com/@tayannebencardino/the-magic-black-screen-command-line-c5a43ed412d4" target="blank">
                                 <div className='blog-card'>
                                     <img src={require("../images/terminal.png")} alt="terminal" width='100%'/>
                                     <div class="description">
@@ -117,7 +117,7 @@ export const Blog = () => {
                     <div className="blog-row">
 
                         <div className="blog-column">
-                            <a href="https://medium.com/@tayannebencardino/my-life-before-makers-academy-8de771d7e94c">
+                            <a href="https://medium.com/@tayannebencardino/my-life-before-makers-academy-8de771d7e94c" target="blank">
                                 <div className='blog-card'>
                                     <img src="https://miro.medium.com/max/468/1*bADvRNKI9ShBVPXLxeURCA.png" alt="Tayanne-scientist" width='50%'/>
                                     <div class="description">
@@ -134,7 +134,7 @@ export const Blog = () => {
                         </div>
 
                         <div className="blog-column">
-                            <a href="https://medium.com/@tayannebencardino/lets-code-but-first-tdd-7cec0c1e9e0e">
+                            <a href="https://medium.com/@tayannebencardino/lets-code-but-first-tdd-7cec0c1e9e0e" target="blank">
                                 <div className='blog-card'>
                                     <img src={require("../images/tdd.png")} alt="tdd-cycle" width='100%'/>
                                     <div class="description">
