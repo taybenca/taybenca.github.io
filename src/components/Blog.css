@@ -3,8 +3,8 @@
 .box-blog {
     box-sizing: border-box;
     position: absolute;
-    width: 110em;
-    height: 200%;
+    width: 100%;
+    height: 300%;
     left: 70px;
     top: 136px;
     background: linear-gradient(106.51deg, rgba(255, 255, 255, 0.05) 3.44%, rgba(255, 255, 255, 0.02) 64.82%);
@@ -51,6 +51,18 @@
 .description {
     padding: 2px 16px;
 }
+
+.blog-column a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-card:hover {
+   background-color: rgb(255, 196, 247);
+   padding: 10px;
+}
+
+
 
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
