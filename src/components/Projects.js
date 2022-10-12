@@ -19,8 +19,8 @@ export const Projects = () => {
                                 It was built using <u>TypeScript</u>, <u>MongoDB database</u>, <u>JavaScript</u> with <u>React</u> framework, and <u>CSS</u>.<br/>
                                 Interfaces with MapBox API to render a map with the chosen route and use Google Autocomplete to find the city when typing it.
                             </p>
-                            <a className="github-link" href="https://github.com/taybenca/Ramble-App" target="blank">Check the code</a>
-                            <a className="github-link" href="https://www.youtube.com/watch?v=Xpqo9LYWCCc" target="blank">Check the demo</a>
+                            <a className="github-link" href="https://github.com/taybenca/Ramble-App" target="github-ramble">Check the code</a>
+                            <a className="github-link" href="https://www.youtube.com/watch?v=Xpqo9LYWCCc" target="youtube-ramble">Check the demo</a>
                         </div>
                         <div className="column">
                             <a href="https://www.youtube.com/watch?v=Xpqo9LYWCCc" target="blank"><img src={require('../images/ramble.png')} alt='cycling-group' width='150'/></a>
@@ -37,8 +37,8 @@ export const Projects = () => {
                                 Interfaces with OpenWeather API to fetch information.<br/>
                                 The app was deployed on Netlify.
                             </p>
-                            <a className="github-link" href="https://github.com/taybenca/weather-frontend" target="blank">Check the code</a>
-                            <a className="github-link" href="https://weather-taybenca.netlify.app/" target="blank">Check the Web App</a>
+                            <a className="github-link" href="https://github.com/taybenca/weather-frontend" target="github-weather">Check the code</a>
+                            <a className="github-link" href="https://weather-taybenca.netlify.app/" target="weather-app">Check the Web App</a>
                         </div>
                         <div className="column">
                             <a href="https://weather-taybenca.netlify.app/" target="blank"><img src={require('../images/weather.png')} alt='sun-and-clouds' width='150'/></a>
@@ -56,8 +56,8 @@ export const Projects = () => {
                                 All data was stored in the <u>MongoDB database</u>, using <u>Mongoose</u> to model objects.<br/>
                                 The app was deployed on <u>Heroku</u> and use of <u>Atlas</u> for hosting database remotely.
                             </p>
-                            <a className="github-link" href="https://github.com/karolina-codes/acebook-node-milton" target="blank">Check the code</a>
-                            <a className="github-link" href="https://milton-acebook.herokuapp.com/" target="blank">Check the Web App</a>
+                            <a className="github-link" href="https://github.com/karolina-codes/acebook-node-milton" target="github-acebook">Check the code</a>
+                            <a className="github-link" href="https://milton-acebook.herokuapp.com/" target="acebook-app">Check the Web App</a>
                         </div>
                         <div className="column">
                         <a href="https://milton-acebook.herokuapp.com/" target="blank"><img src={require('../images/acebook.png')} alt='likes-buttons' width='150'/></a>
@@ -75,8 +75,8 @@ export const Projects = () => {
                                 All data was stored in the <u>PostgreSQL database</u>.<br/>
                                 The app was deployed on <u>Heroku</u>.
                             </p>
-                            <a className="github-link" href="https://github.com/taybenca/Airbnb-Clone" target="blank">Check the code</a>
-                            <a className="github-link" href="https://officialmakersbnb.herokuapp.com/" target="blank">Check the Web App</a>
+                            <a className="github-link" href="https://github.com/taybenca/Airbnb-Clone" target="github-airbnb">Check the code</a>
+                            <a className="github-link" href="https://officialmakersbnb.herokuapp.com/" target="airbnb-app">Check the Web App</a>
                         </div>
                         <div className="column">
                         <a href="https://officialmakersbnb.herokuapp.com/" target="blank"><img src={require('../images/makersbnb.png')} alt='inside-of-a-house-with-blue-sofa' width='150'/></a>
@@ -92,7 +92,7 @@ export const Projects = () => {
                                 The application was built using <u>JavaScript</u> with <u>Node.js</u>.<br/>
                                 Use of <u>Jest</u> for testing.<br/>
                             </p>
-                            <a className="github-link" href="https://github.com/taybenca/till-tech-test" target="blank">Check the code</a>
+                            <a className="github-link" href="https://github.com/taybenca/till-tech-test" target="github-till">Check the code</a>
                         </div>
                         <div className="column">
                         <a href="https://github.com/taybenca/till-tech-test" target="blank"><img src={require('../images/coffee.png')} alt='cashier-using-till' width='150'/></a>
@@ -108,7 +108,7 @@ export const Projects = () => {
                                 The application was built using <u>JavaScript</u> with <u>Node.js</u>.<br/>
                                 Use of <u>Jest</u> for testing.<br/>
                             </p>
-                            <a className="github-link" href="https://github.com/taybenca/bank-tech-test" target="blank">Check the code</a>
+                            <a className="github-link" href="https://github.com/taybenca/bank-tech-test" target="github-bank">Check the code</a>
                         </div>
                         <div className="column">
                         <a href="https://github.com/taybenca/bank-tech-test" target="blank"><img src={require('../images/bank.png')} alt='pigbank' width='150'/></a>

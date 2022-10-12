@@ -8,7 +8,10 @@ export const Contact = () => {
             <div className='container'></div>
             <div className='box-contact'>
                 <NavBar/>
-                <h1>Hello</h1>
+                <div className="card">
+                    <a className="github-link" href="https://github.com/taybenca" target="github">GitHub</a>
+                    <a className="github-link" href="https://www.linkedin.com/in/tayannebencardino" target="linkedin">LinkedIn</a>
+                </div>
             </div>
         </session>
     )
