@@ -110,10 +110,14 @@
         top: 36px;
     }
 
+    .card {
+        padding-top: 0;
+    }
+
     .card h1 {
         position: relative;
         left: 0;
-        height: inherit;
+        height: fit-content;
     }
 
     .card p {

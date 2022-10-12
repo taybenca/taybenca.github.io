@@ -36,8 +36,14 @@ li {
 }
 
 @media only screen and (max-width: 850px) {
-    ul {
-        display: none;
-        visibility: hidden;
+    .topnav {
+        /* display: none;
+        visibility: hidden; */
+        position: relative;
+        left: 0;
+    }
+    li {
+        display: block;
+        margin:20px
     }
 }
