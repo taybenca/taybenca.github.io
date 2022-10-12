@@ -4,10 +4,14 @@
     width: 60%;
 }
 
+.skill-name {
+    color: #f1f1f1;
+}
+
 .skills img {
-    padding: 20px;
     width: 55px;
     height: 55px;
+    margin: 20px;
 }
 
 
