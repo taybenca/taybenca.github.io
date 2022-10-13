@@ -5,8 +5,8 @@
 
 ## How did I approach designing my solution to the problem?
 
-I wanted to build a portfolio to show the projects I have done so far, the technoliges I've used, 
-and a form in the end that someone can contact me using.
+I wanted to build a portfolio to show the projects I have done so far, the technologies I've used, 
+and a form that someone can contact me.
 I wanted to build in React, and it must be responsive for mobile.
 
 ### I used Trello to keep my ideas organised
