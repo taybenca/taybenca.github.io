@@ -20,7 +20,7 @@ export const Projects = () => {
                                 Interfaces with MapBox API to render a map with the chosen route and use Google Autocomplete to find the city when typing it.
                             </p>
                             <a className="github-link" href="https://github.com/taybenca/Ramble-App" target="github-ramble">Check the code</a>
-                            <a className="github-link" href="https://www.youtube.com/watch?v=Xpqo9LYWCCc" target="youtube-ramble">Check the demo</a>
+                            <a className="github-link" href="https://ramble-application.herokuapp.com/" target="heroku-ramble">Check the Web App</a>
                         </div>
                         <div className="column">
                             <a href="https://www.youtube.com/watch?v=Xpqo9LYWCCc" target="blank"><img src={require('../images/ramble.png')} alt='cycling-group' width='150'/></a>
