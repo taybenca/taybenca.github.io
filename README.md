@@ -24,6 +24,3 @@ when I write my code, I have something to look at and understand better what I h
 <br>
 
 <img src="Figma.PNG">
-
-
-
